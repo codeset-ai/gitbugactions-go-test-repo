@@ -9,3 +9,8 @@ func Add(x, y int) (res int) {
 func Subtract(x, y int) (res int) {
 	return x - y
 }
+
+// Multiply multiplies two integers
+func Multiply(x, y int) (res int) {
+	return x + y
+}
