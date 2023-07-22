@@ -21,3 +21,13 @@ func TestSubtract(t *testing.T){
         t.Errorf("got %q, wanted %q", got, want)
     }
 }
+
+func TestMultiply(t *testing.T){
+
+    got := Multiply(5, 5)
+    want := 25
+
+    if got != want {
+        t.Errorf("got %q, wanted %q", got, want)
+    }
+}
