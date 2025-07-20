@@ -17,5 +17,5 @@ func Multiply(x, y int) (res int) {
 
 // Square of an integer
 func Square(x int) (res int) {
-	return x * x * x
+	return x * x
 }
