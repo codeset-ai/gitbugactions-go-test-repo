@@ -14,3 +14,8 @@ func Subtract(x, y int) (res int) {
 func Multiply(x, y int) (res int) {
 	return x * y
 }
+
+// Square of an integer
+func Square(x int) (res int) {
+	return x * x * x
+}

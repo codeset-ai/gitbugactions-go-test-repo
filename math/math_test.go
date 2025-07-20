@@ -31,3 +31,12 @@ func TestMultiply(t *testing.T){
         t.Errorf("got %q, wanted %q", got, want)
     }
 }
+
+func TestSquare(t *testing.T) {
+    got := Square(5)
+    want := 25
+
+    if got != want {
+        t.Errorf("got %d, wanted %d", got, want)
+    }
+}
