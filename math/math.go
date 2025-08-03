@@ -22,5 +22,5 @@ func Square(x int) (res int) {
 
 // Cube of an integer
 func Cube(x int) (res int) {
-	return x * x
+	return x * x * x
 }
