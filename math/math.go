@@ -19,3 +19,8 @@ func Multiply(x, y int) (res int) {
 func Square(x int) (res int) {
 	return x * x
 }
+
+// Cube of an integer
+func Cube(x int) (res int) {
+	return x * x
+}

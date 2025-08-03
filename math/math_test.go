@@ -40,3 +40,12 @@ func TestSquare(t *testing.T) {
         t.Errorf("got %d, wanted %d", got, want)
     }
 }
+
+func TestCube(t *testing.T) {
+    got := Cube(5)
+    want := 125
+
+    if got != want {
+        t.Errorf("got %d, wanted %d", got, want)
+    }
+}
